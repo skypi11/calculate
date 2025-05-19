@@ -1,0 +1,26 @@
+section {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+}
+.bouttons{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-auto-rows: 40px;
+}
+.screen{
+    height: 45px;
+    width: 450px;
+    display: flex;
+    justify-content: flex-end;
+}
+input{
+    width: 300px;
+    font-size: 1.5em;
+}
+.egal{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

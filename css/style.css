@@ -19,6 +19,7 @@ section {
 input{
     width: 300px;
     font-size: 1.5em;
+    text-align: end;
 }
 .egal{
     grid-column-start: 1;
